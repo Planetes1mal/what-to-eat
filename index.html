@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今天吃什么？- 网页版</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>今天吃什么？🤔</h1>
+
+        <div class="section">
+            <h2>上一顿吃了啥？(点击选择以排除)</h2>
+            <div id="previousMealInfo">
+                当前已选 (上一顿): <strong id="currentPreviousMeal">无</strong>
+            </div>
+            <div id="previousMealButtons" class="button-grid">
+            </div>
+            <button id="clearPreviousMealButton" class="control-button">清除上一顿选择 / 不排除</button>
+        </div>
+
+        <div class="section">
+            <button id="pickMealButton" class="pick-button">帮我选一个！</button>
+        </div>
+
+        <div id="result" class="result-section">
+        </div>
+        <div class="options-info">
+            <p>提示："外卖"、"星悦里"、"东渚" 的抽中概率已调低。</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

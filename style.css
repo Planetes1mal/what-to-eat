@@ -1,0 +1,164 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* Align to start for scrollable content */
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    padding: 25px 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 700px;
+    /* Increased max-width for more buttons */
+    text-align: center;
+}
+
+h1 {
+    color: #2a9d8f;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #e76f51;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.section:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+
+#previousMealInfo {
+    margin-bottom: 15px;
+    font-size: 0.95em;
+    color: #555;
+}
+
+#currentPreviousMeal {
+    color: #e76f51;
+    font-weight: bold;
+}
+
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    /* Space between buttons */
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.meal-button {
+    background-color: #fca311;
+    /* Default button color */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    flex-grow: 1;
+    /* Allow buttons to grow */
+    min-width: 100px;
+    /* Minimum width for buttons */
+}
+
+.meal-button.low-probability {
+    background-color: #14213d;
+    /* Different color for low probability options */
+}
+
+.meal-button:hover {
+    opacity: 0.85;
+}
+
+.meal-button.selected {
+    background-color: #e76f51;
+    /* Color for selected previous meal */
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #e76f51;
+    transform: scale(1.05);
+}
+
+.control-button,
+.pick-button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.control-button {
+    background-color: #6c757d;
+    /* Gray for clear button */
+}
+
+.control-button:hover,
+.pick-button:hover {
+    opacity: 0.9;
+}
+
+.pick-button {
+    font-size: 1.2em;
+    padding: 15px 30px;
+    background-color: #e76f51;
+}
+
+.pick-button:hover {
+    background-color: #f4a261;
+}
+
+
+.result-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9f5db;
+    border-left: 5px solid #80b918;
+    border-radius: 5px;
+    min-height: 50px;
+    /* Ensure it has some height even when empty */
+}
+
+.result-section h2 {
+    margin-top: 0;
+    color: #2a9d8f;
+    font-size: 1.4em;
+}
+
+.result-section p {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.options-info {
+    font-size: 0.85em;
+    color: #777;
+    margin-top: 25px;
+}
