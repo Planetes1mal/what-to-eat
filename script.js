@@ -1,19 +1,19 @@
 const mealData = [
-    { name: "16食堂2楼", weight: 3, type: "normal" },
+    { name: "16食堂2楼", weight: 2, type: "normal" },
     { name: "16食堂3楼麻辣烫", weight: 3, type: "normal" },
     { name: "16食堂3楼鸭血粉丝", weight: 3, type: "normal" }, // 新增
-    { name: "16食堂3楼盖浇饭", weight: 3, type: "normal" },
-    { name: "16食堂3楼炒饭", weight: 3, type: "normal" },
-    { name: "16食堂3楼肉夹馍", weight: 3, type: "normal" },
-    { name: "16食堂3楼馄饨", weight: 3, type: "normal" },
-    { name: "16食堂3楼鸡腿饭", weight: 3, type: "normal" },
-    { name: "16食堂3楼汉堡", weight: 3, type: "normal" },
+    { name: "16食堂3楼盖浇饭", weight: 2, type: "normal" },
+    { name: "16食堂3楼炒饭", weight: 2, type: "normal" },
+    { name: "16食堂3楼肉夹馍", weight: 2, type: "normal" },
+    { name: "16食堂3楼馄饨", weight: 2, type: "normal" },
+    { name: "16食堂3楼鸡腿饭", weight: 2, type: "normal" },
+    { name: "16食堂3楼汉堡", weight: 2, type: "normal" },
     { name: "17食堂1食堂面", weight: 3, type: "normal" },
     { name: "17食堂1食堂黄焖鸡", weight: 3, type: "normal" },
     { name: "17食堂2食堂猪脚饭", weight: 3, type: "normal" },
     { name: "17食堂2食堂鱼粉", weight: 3, type: "normal" },
     { name: "17食堂2食堂饺子", weight: 3, type: "normal" },
-    { name: "17食堂2食堂砂锅菜", weight: 3, type: "normal" }, // 新增
+    { name: "17食堂2食堂砂锅菜", weight: 2, type: "normal" }, // 新增
     { name: "外卖", weight: 2, type: "low_prob" },         // 权重更新
     { name: "星悦里", weight: 1, type: "low_prob" },
     { name: "东渚", weight: 1, type: "low_prob" }
